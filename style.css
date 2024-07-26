@@ -236,6 +236,10 @@ p {
     /* flex-direction: row; */
     justify-content: space-between;
     align-items: center;
+
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 3%;
 }
 
 .run-img img {
