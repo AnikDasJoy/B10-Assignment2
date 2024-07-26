@@ -79,11 +79,13 @@ body {
     gap: 20px;
 }
 
-.banner-btn {
+.banner-btn,
+.join-btn {
     color: white;
 }
 
-.banner-btn {
+.banner-btn,
+.join-btn {
     width: 85%;
     height: 38px;
     border-radius: 46px;
@@ -95,6 +97,14 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 35px;
+}
+
+.join-btn {
+    width: 164px;
+    height: 54px;
+    padding: 16px 40px;
+    line-height: 15px;
+    border-radius: 18px;
 }
 
 .dowmload {
@@ -164,20 +174,21 @@ p {
 /* habit section start */
 .habit {
     width: 90%;
-    border-radius: 2px solid green;
     margin: 0 auto;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .exercises {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
-    margin-left: 10%;
+    margin-left: 5%;
 }
 
 .exercise img {
     border-radius: 50%;
+    margin-bottom: -10%;
 }
 
 .exercise {
@@ -206,8 +217,41 @@ p {
 }
 
 .exercise h6 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     margin-bottom: -2%;
 }
+
+/* habit section end */
+
+
+/*extra-mile section start  */
+.extra-mile {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 40px;
+    display: flex;
+    gap: 40px;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.run-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.run {
+    width: 100%;
+}
+
+.run h2 {
+    font-size: 48px;
+    font-weight: 900;
+    /* margin-bottom: -0.5%; */
+    color: rgb(255, 255, 255);
+}
+
+/*extra-mile section end  */
