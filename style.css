@@ -265,7 +265,7 @@ h2 {
 .team-meet {
     width: 90%;
     margin: 0 auto;
-
+    background-color: rgba(0, 0, 0, 0.842);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,3 +314,43 @@ h2 {
 }
 
 /* team-meet section end */
+
+/* footer section start */
+footer {
+    background-color: rgba(0, 0, 0, 0.903);
+    width: auto;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 389px;
+}
+
+.fitness {
+    color: rgb(230, 83, 60);
+    font-size: 4.4rem;
+    font-weight: 800;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* margin: 0 auto; */
+    /* justify-content: space-between; */
+    margin-left: 10%;
+}
+
+.footer h1 {
+    margin-bottom: -2%;
+}
+
+
+h4 {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+/* footer section end */
