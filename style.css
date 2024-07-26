@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.header {
+    /* width: 1440px; */
+    /* height: 715px; */
+    background: linear-gradient(180.00deg, rgb(17, 17, 17) 75%, rgba(119, 119, 119, 0) 100%);
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* navbar & banner section start */
+.nav-item {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar,
+.banner {
+    width: 90rem;
+    margin: 0 auto;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fit {
+    color: rgb(230, 83, 60);
+    font-size: 2.4rem;
+    font-weight: 800;
+}
+
+.home {
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 20px;
+}
+
+.nav-links {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.32);
+    color: white;
+}
+
+.banner-details h1 {
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+
+    color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.button {
+    gap: 20px;
+}
+
+.banner-btn {
+    color: white;
+}
+
+.banner-btn {
+    width: 85%;
+    height: 38px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    padding: 8px 18px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.dowmload {
+    width: 85%;
+    height: 38px;
+    border-radius: 46px;
+    background: rgba(0, 0, 0, 0.633);
+    padding: 8px 18px;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.video {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(5px);
+    background: rgba(48, 48, 48, 0.54);
+
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    padding: 0 30px;
+}
+
+.banner-image {
+    position: relative;
+}
+
+.video {
+    color: white;
+    /* margin: 0 60%; */
+}
+
+.bottom {
+    position: absolute;
+    right: 90%;
+    top: 70%;
+}
+
+.top {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.bottom-part,
+.top-part {
+    margin-top: -10px;
+}
+
+/* navbar & banner section end */
+
+/* habit section start */
+.habit {}
