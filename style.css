@@ -82,6 +82,7 @@ body {
 .banner-btn,
 .join-btn {
     color: white;
+    cursor: pointer;
 }
 
 .banner-btn,
@@ -260,6 +261,77 @@ h2 {
 }
 
 /*extra-mile section end  */
+
+/* calculator section start */
+.calculator {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+}
+
+.calculator h2 {
+    margin-bottom: -0.5%;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+tbody {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+thead {
+    color: rgb(255, 255, 255);
+}
+
+td,
+th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.BMI h4 {
+    margin-bottom: -0.5%;
+}
+
+.calculate {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(34, 34, 34);
+    height: 487px;
+}
+
+input,
+select {
+    width: 282.5px;
+    height: 28px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+select {
+    width: 342.5px;
+    height: 48px;
+}
+
+.activity {
+    width: 694px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* calculator section end */
 
 /* team-meet section start */
 .team-meet {
