@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/388dd6248e.js" crossorigin="anonymous"></script>
 
     <style class="shape">
         @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
@@ -30,6 +31,8 @@
                 <li class="nav-item"><a class="nav-link text-white" href="">Contact</a></li>
                 <li class="nav-item"><a class="nav-link text-white" href="">About</a></li>
             </ul>
+            <i class="fa-solid fa-bars menubar" style="color: #fafafa;"></i>
+
         </nav>
 
         <!-- banner section start -->
@@ -41,8 +44,11 @@
                     you get fit and stay
                     fit!</p>
                 <div class="display-flex button">
-                    <div class="btn">
+                    <div class="btn btn-desktop">
                         <p class="banner-btn">Join Club Now!</p>
+                    </div>
+                    <div class="btn btn-mobile">
+                        <p class="banner-btn">Join Now!</p>
                     </div>
 
                     <div class="btn">
@@ -54,8 +60,13 @@
             <div class="banner-image">
                 <img src="imaages/Images 2.png" alt="">
                 <div class="video bottom">
-                    <h3>350+</h3>
-                    <p class="bottom-part">Video tutorial</p>
+                    <div class="ellipse">
+
+                    </div>
+                    <div>
+                        <h3>350+</h3>
+                        <p class="bottom-part">Video tutorial</p>
+                    </div>
                 </div>
 
                 <div class="video top">
@@ -108,9 +119,10 @@
         <section class="extra-mile">
             <div class="run">
                 <h2>Run an Extra <br> Mile Easily</h2>
-                <p>We believe fitness should be accessible to everyone,<br>everywhere, regardless of income or access to
+                <p>We believe fitness should be accessible to everyone, everywhere,<br> regardless of income or access
+                    to
                     a
-                    gym. With<br>hundreds
+                    gym. With hundreds
                     of professional workouts.</p>
 
                 <button class="join-btn">Join Now</button>
@@ -121,6 +133,33 @@
             </div>
         </section>
         <!-- extra-mile section end -->
+
+        <!-- discount section start -->
+        <section class="discount">
+            <div class="discount-deetails">
+                <h4>Get <span class="red">20%</span> Discount For All<br>Fitness Classes</h4>
+                <p>Fitness Workouts are known to have positive effects<br>on mental health, reducing stress, anxiety
+                    and<br>
+                    depression.</p>
+                <button class="join-btn discount-join">JOIN OUR CLASS</button>
+            </div>
+
+            <div class="discount-img">
+                <div>
+                    <img src="imaages/exercise1.jpg" alt="">
+                </div>
+                <div>
+                    <img src="imaages/exercise4.png" alt="">
+                </div>
+                <div>
+                    <img src="imaages/exercise5.jpg" alt="">
+                </div>
+                <div>
+                    <img src="imaages/exercise6.jpg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- discount section end -->
 
         <!-- calculator section start -->
         <section class="calculator">
@@ -179,7 +218,8 @@
                             <option>Select an activity factor</option>
                         </select>
 
-                        <button class="join-btn">Join Now</button>
+                        <button class="join-btn">Calculate</button>
+                        <br>
                     </div>
                 </div>
             </div>
@@ -247,7 +287,7 @@
         <div class="footer">
             <div>
                 <h1 class="fitness">Fitness</h1>
-                <p>We believe fitness should be accessible to everyone,<br>everywhere, regardless of income or access to
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to
                     a
                     gym.<br>With hundreds
                     of professional workouts.</p>
@@ -271,7 +311,7 @@
         </div>
         <br> <br>
         <hr>
-        <p class="footer-bottom">All right reserved @Fitness &copyANIK 2024</p>
+        <p class="footer-bottom">All right reserved @Fitness &copyANIK 2024</p> <br>
     </footer>
     <!-- footer section end -->
 </body>

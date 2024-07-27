@@ -43,6 +43,14 @@ body {
     justify-content: space-between;
 }
 
+.menubar {
+    display: none;
+}
+
+.btn-mobile {
+    display: none;
+}
+
 .fit {
     color: rgb(230, 83, 60);
     font-size: 2.4rem;
@@ -157,6 +165,8 @@ p {
     position: absolute;
     right: 90%;
     top: 70%;
+    display: flex;
+    gap: 20px;
 }
 
 .top {
@@ -168,6 +178,14 @@ p {
 .bottom-part,
 .top-part {
     margin-top: -10px;
+}
+
+.ellipse {
+    width: 40px;
+    height: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-top: 30%;
 }
 
 /* navbar & banner section end */
@@ -262,6 +280,49 @@ h2 {
 
 /*extra-mile section end  */
 
+/* discount section start */
+.discount {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 3%;
+}
+
+.discount h4 {
+    margin-bottom: -0.5%;
+}
+
+.discount-join {
+    width: 35%;
+}
+
+.red {
+    color: red;
+}
+
+.discount-deetails {
+    width: 50%;
+}
+
+.discount-img {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.discount-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* discount section end */
+
 /* calculator section start */
 .calculator {
     width: 90%;
@@ -305,7 +366,8 @@ th {
     display: flex;
     justify-content: space-evenly;
     background: rgb(34, 34, 34);
-    height: 487px;
+    height: 100%;
+    padding-bottom: 10px;
 }
 
 input,
@@ -393,7 +455,7 @@ footer {
     width: auto;
     margin: 0 auto;
     margin-top: 5%;
-    height: 389px;
+    height: 100%;
 }
 
 .fitness {
@@ -426,3 +488,107 @@ h4 {
 }
 
 /* footer section end */
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .nav-links {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    .btn-mobile {
+        display: block;
+        margin-right: 10px;
+    }
+
+    .btn-desktop {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .bottom {
+        right: 55%;
+    }
+
+    .banner-details h1 {
+        font-size: 3rem;
+        font-weight: 900;
+    }
+
+    .habit-details h2 {
+        font-size: 2.3rem;
+        font-weight: 900;
+    }
+
+    .exercises {
+        grid-template-columns: 1fr;
+    }
+
+    .extra-mile {
+        flex-direction: column;
+    }
+
+    .discount {
+        flex-direction: column;
+    }
+
+    .discount-deetails {
+        width: 100%;
+    }
+
+    .discount-img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .discount-join {
+        width: 85%;
+    }
+
+    .calculator {
+        height: fit-content;
+    }
+
+    .calculate {
+        flex-direction: column;
+        height: 100%;
+        padding: 0 20px;
+    }
+
+    input,
+    select {
+        width: 82.5px;
+        height: 28px;
+        padding: 12px 40px 12px 20px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    select {
+        width: 142.5px;
+        height: 48px;
+    }
+
+    .activity {
+        width: 300px;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .team-images {
+        grid-template-columns: 1fr;
+    }
+
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
